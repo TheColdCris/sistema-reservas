@@ -1,0 +1,22 @@
+{
+  "name": "asistente-universitario-api",
+  "version": "1.0.0",
+  "description": "Este proyecto implementa un CRUD para **Estudiantes, Docentes, Materias, Cursos y Notas** usando **Node.js**, **Express** y **MySQL** con una estructura **MVC** (Routes → Controllers → Services → Models/Repositories).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
